@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "nasit_class_calender",
+    "description": "add naist class to google calender",
+    "version": "1.0",
+    "icons": {
+        "32": "icons/icon_32.png",
+        "48": "icons/icon_48.png",
+        "128": "icons/icon_128.png"
+    },
+    "content_scripts": [{
+        "matches": ["https://syllabus.naist.jp/charges/preview_detail/*"],
+        "js": ["content_scripts.js", "dataGetScript.js"],
+        "css": ["popup.css"]
+    }],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "browser_action": {
+        "default_icon": "icons/icon_32.png",
+        "default_title": "",
+         "default_popup": "popup.html"
+    },
+    "permissions": [
+        "background",
+        "tabs",
+        "https://syllabus.naist.jp/charges/preview_detail/*"
+    ]
+}
