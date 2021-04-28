@@ -1,16 +1,12 @@
 {
   "manifest_version": 2,
-  "name": "nasit_class_calender",
+  "name": "nasit_class_schedule_to_csv",
   "description": "add naist class schedules to google calender",
   "version": "1.0",
   "icons": {
     "32": "icons/icon_32.png",
     "48": "icons/icon_48.png",
     "128": "icons/icon_128.png"
-  },
-  "oauth2": {
-    "client_id": "259813197563-nk87ig2suurnk71srg0eqe77hq4qvggm.apps.googleusercontent.com",
-    "scopes":["https://www.googleapis.com/auth/calender"]
   },
   "content_scripts": [
     {
@@ -34,8 +30,6 @@
     "background",
     "tabs",
     "identity",
-    "https://syllabus.naist.jp/*/preview_detail/*",
-    "https://apis.google.com/js/api.js"
-  ],
-  "content_security_policy": "script-src 'self' https://apis.google.com/js/api.js; object-src 'self'"
+    "https://syllabus.naist.jp/*/preview_detail/*"
+  ]
 }
