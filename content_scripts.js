@@ -21,7 +21,7 @@ window.addEventListener("load", (e) => {
       var classURL = document.getElementById("class-url");
       var classDetail = document.getElementById("class-detail");
       var content =
-        "Subject,Start Date,Start Time,End Date,End Time,Place,Description\n";
+        "Subject,Start Date,Start Time,End Date,End Time,Location,Description\n";
       var fileName = "test";
       chrome.tabs.executeScript(
         id,
