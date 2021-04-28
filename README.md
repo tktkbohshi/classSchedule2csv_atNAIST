@@ -14,6 +14,6 @@ git clone https://github.com/tktkbohshi/naist_class_calender.git
 <img width="67" alt="スクリーンショット 2021-04-28 20 55 44" src="https://user-images.githubusercontent.com/62731095/116399643-1c4df880-a864-11eb-903e-f455e061f2d5.png">  
 その後，科目名等がポップアップに正常に表示されていることを確認してポップアップ下部の「.csvファイルをダウンロード」ボタンをクリック，任意のディレクトリにcsvを保存する．  
 このcsvをGoogle Calenderで読み込む．  
-現在は授業名+回数，講義室情報及び該当科目のシラバスURLがcsvに書き込まれるようになってます．  
+現在は授業名+回数，各回のスケジュール，講義室情報及び該当科目のシラバスURLがcsvに書き込まれるようになってます．  
 ## その他  
 issue報告，プルリク歓迎です．
