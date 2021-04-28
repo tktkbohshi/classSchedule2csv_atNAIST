@@ -1,6 +1,6 @@
 # naist_class_calender  
 ## About  
-naistシラバスの科目ページから授業名，日程等を取り込み，Google Calenderで読み込めるcsvファイルとしてエクスポートするchrome拡張機能です．
+naistシラバスの科目ページから授業名，日程等を科目ごとに一括で取り込み，Google Calenderで読み込めるcsvファイルとしてエクスポートするchrome拡張機能です．
 
 ## Installation  
 任意のディレクトリで  
