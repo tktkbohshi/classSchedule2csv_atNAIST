@@ -2,10 +2,14 @@
   <head>
     <meta charset="utf-8" />
     <script src="content_scripts.js"></script>
+    <script src="https://apis.google.com/js/client.js?onload=onGAPILoad"></script>
   </head>
   <body>
-    <div style="width: 200px; height: 100px">
+    <div style="width: 300px; background-color: rgb(203, 219, 219); padding: 1px 10px 10px 10px;">
       <h2 id="class-name">クラス名</h2>
+      <h4 id="class-year">年度</h4>
+      <div id="class-url" style="margin-bottom: 20px; margin-top: 0px;">URL</div>
+      <div id="class-detail"></div>
       <button id="add-button" onclick="">Add to Google Calender</button>
     </div>
   </body>
