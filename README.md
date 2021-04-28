@@ -1,6 +1,7 @@
 # class_schedule_to_csv_for_google_calender
 ## About  
-naistシラバスの科目ページから授業名，日程等を科目ごとに一括で取り込み，Google Calenderでインポートできるcsvファイルとしてエクスポートするchrome拡張機能です．
+naistシラバスの科目ページから授業名，日程等を科目ごとに一括で取り込み，Google Calenderでインポートできるcsvファイルとしてエクスポートするchrome拡張機能です．  
+:exclamation: ダウンロード操作自体は各科目ごとに行う必要があります．
 
 ## Installation  
 任意のディレクトリで  
