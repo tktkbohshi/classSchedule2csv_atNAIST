@@ -6,7 +6,7 @@ naistシラバスの科目ページから授業名，日程等を科目ごとに
 ## Installation  
 任意のディレクトリで  
 ```
-git clone https://github.com/tktkbohshi/naist_class_calender.git
+git clonehttps://github.com/tktkbohshi/class_schedule_to_csv_for_google_calender.git
 ```
 もしくはCode->Download ZipからZipファイルをダウンロード後，任意のディレクトリで解凍  
 その後，[chrome://extensions](chrome://extensions) にアクセス，右上からデベロッパーモードを有効化，「パッケージ化されていない拡張機能を読み込む」からダウンロードしたフォルダを選択・開く．
